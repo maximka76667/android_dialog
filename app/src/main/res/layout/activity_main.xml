@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:ignore="HardcodedText" >
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/cabecera_principal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BÃºsqueda de facturas"
+            android:gravity="center"
+            android:layout_span="2"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/cabecera1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lineas:"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_lineas"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DEB887"
+            android:textColor="#5A798E"
+            android:layout_marginRight="20dp"
+            android:text="" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/cabecera2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mes:"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right"
+            />
+        <TextView
+            android:id="@+id/tv_mes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#5A798E"
+            android:background="#DEB887"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp"
+            android:layout_marginRight="20dp"
+            android:text="" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/cabecera3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AÃ±o:"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right"
+            />
+        <TextView
+            android:id="@+id/tv_anho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#5A798E"
+            android:background="#DEB887"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp"
+            android:layout_marginRight="20dp"
+            android:text="" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/btn_Borrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Borrar" />
+
+        <Button
+            android:id="@+id/btn_Buscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buscar" />
+
+    </TableRow>
+</TableLayout>
+
